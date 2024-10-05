@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a131d;
+    color: #F1F1F1;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 20px 15px;
+    color: white;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px; /* Add border radius for smoother edges */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff6f61; /* Change text color on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly darker background on hover */
+}
+
+.dropdown-menu {
+    background-color: #ff6f61;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #ffecb3;
+    color: #ff6f61;
+}
+
+.nav-item.active .nav-link {
+    color: #ffecb3;
+    font-weight: bold;
+}
+
+#image-container {
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.background-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.animated-text {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.footer {
+    background-color: #FF6F61;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.message-box {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: rotate(5deg);
+}
+
+.card-img-top {
+    transition: transform 0.3s;
+}
+
+.card:hover .card-img-top {
+    transform: rotate(3deg);
+}
+
+.about-section {
+    padding: 50px 0;
+    background-color: #FCA311;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px;
+    margin-top: 40px;
+}

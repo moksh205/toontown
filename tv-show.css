@@ -1,0 +1,30 @@
+.navbar-main {
+    background-color: #ff6f61;
+}
+
+.main-content {
+    margin-top: 50px;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.show-card {
+    border: none;
+    border-radius: 0;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.footer-section {
+    background-color: #FF6F61;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}

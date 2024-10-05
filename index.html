@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToonTown Vibes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ff6f61;">
+        <div class="container">
+            <a class="navbar-brand" href="#">ToonTown Vibes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tv-shows.html">TV Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="image-container">
+        <img src="https://images.reporteindigo.com/wp-content/uploads/2022/10/%C2%BFLlego-el-fin-de-Cartoon-Network-Esto-sabemos-de-la-supuesta-desaparicion-del-canal.jpg" alt="Background Image" class="background-image">
+    </div>
+
+    <div class="container text-center">
+        <h2 id="welcome-title">Welcome to ToonTown!</h2>
+        <p>Let's dive into a world where nostalgia and cartoons blend seamlessly.</p>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwB5QR1lnWNbnKYjl3aZa9NTCNcP8Y3gLVJw&s" class="card-img-top" alt="Cartoon Fun" onclick="displayMessage('Cartoon Fun')">
+                    <div class="card-body">
+                        <h5 class="card-title">Cartoon Fun</h5>
+                        <p class="card-text">Enjoy the burst of colors and animated fun!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOxRKuuYCXDa2ABEI4is67qtMazRUQchqFqA&s" class="card-img-top" alt="Nostalgia Hit" onclick="displayMessage('Nostalgia Hit')">
+                    <div class="card-body">
+                        <h5 class="card-title">Nostalgia Hit</h5>
+                        <p class="card-text">Dive back into your childhood memories.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHO_nCz-fpoxhuGrY-n2xG-110PlInDdzebw&s" class="card-img-top" alt="Bright Colors" onclick="displayMessage('Bright Colors')">
+                    <div class="card-body">
+                        <h5 class="card-title">Bright Colors</h5>
+                        <p class="card-text">More colors than you can count!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="about-section">
+        <div class="container text-center">
+            <h2 class="animated-text">About ToonTown</h2>
+            <p id="about-text"></p>
+        </div>
+    </div>
+
+    <div id="message-box" class="message-box"></div>
+
+    <div class="footer">
+        <p>© 2024 ToonTown Vibes. All rights reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

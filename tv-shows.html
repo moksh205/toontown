@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Shows - ToonTown Vibes</title>
+    <link rel="stylesheet" href="tv-show.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-main">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ToonTown Vibes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">TV Shows</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center main-content">
+        <h2 class="section-title" id="welcome-title">Explore Our TV Shows!</h2>
+        <p>From classic to modern, enjoy a variety of shows.</p>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card show-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOkeB6LnUubh6P4cUkEEE7TTfI-zbKgJM1DA&s" class="card-img-top card-image" alt="Show 1" onclick="displayMessage('Show 1')">
+                    <div class="card-body">
+                        <h5 class="card-title">Show 1</h5>
+                        <p class="card-text">Courage the Cowardly Dog</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card show-card">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/287ea0afa4c6b0fc2dae23bd53941526ea9d054978ac0a2db52f5e8c41985e6b.jpg" alt="Show 2" onclick="displayMessage('Show 2')">
+                    <div class="card-body">
+                        <h5 class="card-title">Show 2</h5>
+                        <p class="card-text">Richie-Rich</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card show-card">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/0ba2956c9041d22fd1b6b1dee1df5f21fc13aab521cd650876577ab108ca32d7.jpg" class="card-img-top card-image" alt="Show 3" onclick="displayMessage('Show 3')">
+                    <div class="card-body">
+                        <h5 class="card-title">Show 3</h5>
+                        <p class="card-text">huddy mera buddy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card show-card">
+                    <img src="https://i.ytimg.com/vi/ahutplOYvmU/sddefault.jpg" class="card-img-top card-image" alt="Show 4" onclick="displayMessage('Show 4')">
+                    <div class="card-body">
+                        <h5 class="card-title">Show 4</h5>
+                        <p class="card-text">Popeye The Sailor Man</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card show-card">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/b35ee2e64161c3b02194239c70b8fa1a83bd7552d4e52c927c47308659fbe005.jpg" class="card-img-top card-image" alt="Show 5" onclick="displayMessage('Show 5')">
+                    <div class="card-body">
+                        <h5 class="card-title">Show 5</h5>
+                        <p class="card-text">Ben 10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card show-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStjDxo5sejd_PLdQc968ZlxJ8hTcSKsIfwTw&s" class="card-img-top card-image" alt="Show 6" onclick="displayMessage('Show 6')">
+                    <div class="card-body">
+                        <h5 class="card-title">Show 6</h5>
+                        <p class="card-text">Uncle Grandpa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="message-box" class="message-box"></div>
+
+    <div class="footer-section">
+        <p>© 2024 ToonTown Vibes. All rights reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
